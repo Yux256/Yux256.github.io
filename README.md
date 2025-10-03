@@ -1,125 +1,67 @@
-# [The Academic CV That Gets You Hired](https://github.com/HugoBlox/theme-academic-cv)
+📖 仓库概述
 
-[![Screenshot](.github/preview.webp)](https://hugoblox.com/templates/academic-cv/start/?utm_source=github&utm_medium=readme)
+这是一个基于 Hugo Blox Builder 的学术简历网站项目，专门用于展示研究人员、学者或博士生的个人简历、研究成果和学术资料。
 
-<h1 align="center">Build an Academic CV and Resumé That Stands Out</h1>
+🏗️ 核心技术栈
 
-<p align="center">
-  <strong>Your unfair advantage in academia and tech.</strong><br/>
-  Showcase your work, boost your citations, and land your dream job at places like <strong>Meta, Google, and Stanford</strong>.
-</p>
+•  Hugo (v0.150.1) - 静态网站生成器
+•  Hugo Blox Builder - 学术网站专用框架
+•  Tailwind CSS v4 - 现代CSS框架
+•  pnpm - Node.js包管理器
+•  GitHub Pages/Netlify - 自动部署
 
-<p align="center">
-  <a href="https://hugoblox.com/templates/academic-cv/start?utm_source=github&utm_medium=readme"><b>🚀 Deploy Your Free CV in 60s</b></a>
-  &nbsp;•&nbsp;
-  <a href="https://hugoblox.com/templates/?open=academic-cv&loading=true&utm_source=github&utm_medium=readme">Live Demo</a>
-  &nbsp;•&nbsp;
-  <a href="https://hugoblox.com/pro?utm_source=github&utm_medium=readme"><b>✨ Upgrade to Pro</b></a>
-</p>
+📁 目录结构说明
 
-<p align="center">
-  Trusted by 250,000+ researchers, students, and educators worldwide.
-</p>
+🔧 配置文件
+📝 内容目录 (content/)
+🎨 主题和布局
+🚀 常用开发命令
 
-<p align="center">
-  <a href="https://discord.gg/z8wNYzb">
-    <img src="https://img.shields.io/discord/722225264733716590?label=Join%20Discord&style=social" alt="Discord">
-  </a>
-  <a href="https://github.com/HugoBlox/theme-academic-cv">
-    <img src="https://img.shields.io/github/stars/HugoBlox/theme-academic-cv?label=Star%20Academic%20CV&style=social" alt="GitHub Stars">
-  </a>
-</p>
+本地开发
+bash
+Hugo原生命令
+bash
+🔄 自动化工作流
 
----
+📚 论文自动导入
+•  在仓库根目录放置 publications.bib 文件
+•  GitHub Actions自动将BibTeX转换为Markdown页面
+•  使用Python的academic包处理转换
 
-## Your Career Starts Here
+🚢 自动部署
+•  GitHub Pages: 推送到main分支自动部署
+•  Netlify: 支持预览部署和分支部署
+•  包含自动搜索索引生成
 
-The Academic CV template is designed for impact. Whether you're an AI researcher, a recent graduate, or a seasoned professor, this is the last resumé you'll ever need.
+💡 核心特色功能
 
-- **✍️ Showcase Your Expertise:** Easily write content with Markdown, Jupyter, or RStudio. Display your publications, talks, and projects in a stunning, professional layout.
-- **📈 Boost Your Citations:** Automatic BibTeX import and SEO-optimized pages mean your work gets discovered more easily, increasing your research impact.
-- **💼 Land Your Dream Job:** Create a memorable online presence that impresses recruiters from top tech firms and prestigious universities.
-- **🚀 Launch in Minutes:** No coding required. The Hugo Blox Builder lets you customize everything with drag-and-drop sections.
+区块化页面系统
+首页使用声明式区块系统，每个部分都是独立的区块：
+•  resume-biography-3 - 个人简介区块
+•  collection - 内容集合展示
+•  markdown - 自定义内容区块
 
-<p align="center">
-  <a href="https://hugoblox.com/templates/academic-cv/start?utm_source=github&utm_medium=readme">
-    <img src="https://img.shields.io/badge/⚡️%20Get%20Your%20CV%20in%2060s-ff4655?style=for-the-badge" alt="Deploy this template" width="400">
-  </a>
-</p>
+丰富的内容类型
+•  个人资料: 教育背景、工作经历、技能、获奖情况
+•  学术论文: 支持DOI链接、PDF下载、代码仓库链接
+•  研究项目: 项目展示和详细描述
+•  学术活动: 会议演讲、讲座等
 
----
+🎯 使用场景
 
-## Level Up with Pro Templates
+这个模板特别适合：
+•  📖 博士生/研究生制作学术简历
+•  🎓 教授/研究员展示研究成果
+•  💼 技术人员求职展示
+•  📊 学术机构成员介绍页面
 
-Ready to take your career to the next level? Our Pro templates offer exclusive designs and features to help you stand out even more.
+🛠️ 快速上手步骤
 
-<!-- <p align="center">
-  <img src="" alt="Free vs Pro templates">
-</p>-->
+1. 克隆仓库后：运行 pnpm install
+2. 修改个人信息：编辑 content/authors/admin/_index.md
+3. 添加研究成果：在 content/publications/ 添加论文
+4. 自定义首页：修改 content/_index.md 的区块配置
+5. 本地预览：运行 pnpm run dev
+6. 部署：推送到GitHub，自动部署到GitHub Pages
 
-| Feature              | Academic CV (Free)       | Academic CV Pro & Resumé Pro     |
-| -------------------- | ------------------------ | -------------------------------- |
-| **Design**           | Professional & clean     | **Exclusive premium designs**    |
-| **Layouts**          | Standard resumé sections | **Advanced layouts & timelines** |
-| **Call to Action**   | Simple contact link      | **Prominent CTA buttons**        |
-| **First Impression** | Strong                   | **Unforgettable**                |
-
-<br/>
-<p align="center">
-  <a href="https://hugoblox.com/pro?utm_source=github&utm_medium=readme"><b>💎 Get the Pro Pass</b></a> — Includes all Pro templates for a one-time price.<br/>
-  <a href="https://hugoblox.com/templates/academic-cv-pro/start?utm_source=github&utm_medium=readme">✨ Deploy Academic CV Pro</a>
-  &nbsp;•&nbsp;
-  <a href="https://hugoblox.com/templates/resume-pro/start?utm_source=github&utm_medium=readme">📄 Deploy Resumé Pro</a>
-</p>
-
----
-
-## What Researchers Say
-
-> “Hugo Blox saved me 40+ hours on my lab site. BibTeX integration auto-updates publications — **our citations are up 3×**.”
-> — **Dr. Sarah Yang**, AI Researcher
-
----
-
-## Get Started in Minutes
-
-### Recommended (Fastest)
-
-Deploy your site to GitHub Pages in just 60 seconds with our browser-based starter.
-
-👉 <a href="https://hugoblox.com/templates/academic-cv/start?utm_source=github&utm_medium=readme"><b>Start with the Academic CV Template</b></a>
-
-### Prefer the Command Line?
-
-Use the local quickstart:
-
-```bash
-# 1. Install Hugo Extended → https://docs.hugoblox.com/getting-started/install-hugo/
-# 2. Clone this starter
-git clone https://github.com/HugoBlox/theme-academic-cv my-site
-cd my-site
-
-# 3. Run locally
-pnpm install && hugo server
-```
-
-For more guides, visit our documentation at **https://docs.hugoblox.com/**.
-
----
-
-## Join the Community
-
-Join thousands of creators in our vibrant community to ask questions, share your work, and help us improve.
-
-- 💬 <a href="https://discord.gg/z8wNYzb">Discord</a>
-- 📚 <a href="https://docs.hugoblox.com/?utm_source=github&utm_medium=readme">Docs & Guides</a>
-- 🐦 <a href="https://x.com/BuildLore">X / Twitter</a>
-- ⭐ <a href="https://github.com/HugoBlox/hugo-blox-builder">Star on GitHub</a>
-
----
-
-MIT © 2016-Present [George Cushen](https://georgecushen.com)
-
-<!--START_SECTION:news-->
-<!--Updated at 2025-09-28T01:57:49.232Z-->
-<!--END_SECTION:news-->
+这个仓库结构非常适合学术人员快速搭建专业的个人网站，展示研究成果和学术资历。

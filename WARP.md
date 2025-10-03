@@ -10,6 +10,7 @@ This file provides guidance to WARP (warp.dev) when working with code in this re
 - `pnpm run build` - Build site with `hugo --minify` for production
 
 ### Advanced Hugo Commands
+
 For direct Hugo usage beyond package.json scripts:
 - `hugo server --disableFastRender` - Development server (equivalent to `pnpm run dev`)
 - `hugo --gc --minify` - Production build with garbage collection
