@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Alex Johnson
+title: Yuxuan Peng
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
+first_name: Yuxuan
+last_name: Peng
 
 # Pronouns (optional)
 pronouns: he/him
@@ -23,12 +23,12 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: Master's Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Beijing Sport University, China
+    url: https://www.bsu.edu.cn/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -166,4 +166,4 @@ awards:
       Recognized for contributions to scaling laws in deep learning.
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+Peng Yuxuan is a graduate student in biomechanics at Beijing Sport University, specializing in sports injury mechanism analysis, sports equipment biomechanical assessment, and motor control research. He has published three conference papers covering topics such as the impact of sports equipment (phase-change cooling vests, basketball knee pads) on athletic performance and motor control (habitual movement patterns). Committed to expanding his research focus to applications of exoskeletons and wearable devices in sports rehabilitation and performance enhancement. In his spare time, he enjoys basketball, programming, and exploring innovative open-source software tools. 
