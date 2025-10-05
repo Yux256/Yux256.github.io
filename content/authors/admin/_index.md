@@ -34,18 +34,18 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
+    url: 'pengyuxuan.pyx@foxmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
+#  - icon: brands/x
+#    url: https://twitter.com/AlexAIResearch
   - icon: brands/github
-    url: https://github.com/alexjohnsonai
+    url: https://github.com/Yux256
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://www.linkedin.com/in/yuxuan-peng-408070386/
+#  - icon: academicons/google-scholar
+#    url: https://scholar.google.com/citations?user=alexjohnson
+#  - icon: academicons/orcid
+#    url: https://orcid.org/0000-0002-1825-0097
 
 interests:
   - Large Language Models
@@ -54,31 +54,27 @@ interests:
   - AI Ethics
 
 education:
-  - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
-    date_start: 2015-09-01
-    date_end: 2019-06-30
+  # - area: PhD Computer Science (AI Focus)
+  #   institution: Stanford University
+  #   date_start: 2015-09-01
+  #   date_end: 2019-06-30
+  #   summary: |
+  #     Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
+  #   button:
+  #     text: 'Read Thesis'
+  #     url: 'https://example.com/thesis.pdf'
+  - area: MS SportsBiomechanics
+    institution: Beijing Sport University
+    date_start: 2023-09-01
+    date_end: 2026-06-01
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
-    date_start: 2013-09-01
-    date_end: 2015-05-31
-    summary: |
-      GPA: 4.0/4.0
 
-      Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
-    date_start: 2009-09-01
-    date_end: 2013-05-31
-    summary: |
-      GPA: 3.9/4.0
 
-      Minored in Mathematics. President of AI Club.
+  - area: BS Clinical Medicine
+    institution: Jilin University
+    date_start: 2017-09-01
+    date_end: 2022-06-01
+    summary: |
 
 work:
   - position: Senior AI Research Scientist
@@ -133,20 +129,20 @@ skills:
         icon: book-open
 
 languages:
-  - name: English
+  - name: Chinese
     percent: 100
-  - name: Spanish
-    percent: 50
+  - name: English
+    percent: 80
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Best Paper Award
+  - title: National AI Application Innovation Competition - National Second Prize
     url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
+    date: '2025-08-01'
+    awarder: Chinese Society of Technology Economics
     icon: hero/trophy
     summary: |
       Awarded for groundbreaking work on efficient training of large models.
