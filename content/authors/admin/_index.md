@@ -77,56 +77,96 @@ education:
     summary: |
 
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
-    company_logo: ''
-    date_start: 2020-01-01
-    date_end: ''
-    summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
-    company_logo: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+  # - position: Senior AI Research Scientist
+  #   company_name: Meta AI
+  #   company_url: 'https://ai.meta.com/'
+  #   company_logo: ''
+  #   date_start: 2020-01-01
+  #   date_end: ''
+  #   summary: |2-
+  #     Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
+  # - position: AI Research Intern
+  #   company_name: OpenAI
+  #   company_url: 'https://openai.com/'
+  #   company_logo: ''
+  #   date_start: 2019-06-01
+  #   date_end: 2019-12-31
+  #   summary: |
+  #     Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Biomechanical Software
     items:
+      - name: Visual3D
+        description: ''
+        percent: 95
+        icon: cpu-chip
+      - name: Qualisys
+        description: ''
+        percent: 90
+        icon: cpu-chip
+      - name: FastMove3D
+        description: ''
+        percent: 85
+        icon: cpu-chip
+      - name: OpenSim
+        description: ''
+        percent: 70
+        icon: cpu-chip
+  - name: Large Language Model Applications
+    items:
+      - name: Cursor
+        description: ''
+        percent: 90
+        icon: code-bracket
+      - name: Warp
+        description: ''
+        percent: 85
+        icon: code-bracket
+      - name: LangGraph
+        description: ''
+        percent: 80
+        icon: code-bracket
+      - name: n8n
+        description: ''
+        percent: 80
+        icon: code-bracket
+  - name: Programming Skills
+    items:
+      - name: R & tidyverse & duckdb
+        description: ''
+        percent: 95
+        icon: code-bracket
       - name: Python & PyTorch
         description: ''
         percent: 95
         icon: code-bracket
-      - name: Machine Learning
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
+      - name: C++
         description: ''
         percent: 85
-        icon: cloud
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking in the Rockies
+        icon: code-bracket
+      - name: Typst
+        description: ''
+        percent: 85
+        icon: code-bracket
+      - name: SQL
+        description: ''
+        percent: 75
+        icon: code-bracket
+      - name: MATLAB
+        description: ''
+        percent: 75
+        icon: code-bracket
+      - name: LaTeX
         description: ''
         percent: 80
-        icon: person-simple-walk
-      - name: Building Custom PCs
-        description: ''
-        percent: 90
-        icon: cpu-chip
-      - name: Sci-Fi Reading
+        icon: code-bracket
+      - name: JavaScript
         description: ''
         percent: 70
-        icon: book-open
+        icon: code-bracket
 
 languages:
   - name: Chinese
