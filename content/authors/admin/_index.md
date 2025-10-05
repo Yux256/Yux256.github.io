@@ -140,26 +140,39 @@ languages:
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
   - title: National AI Application Innovation Competition - National Second Prize
-    url: https://neurips.cc/
-    date: '2025-08-01'
+    date: '2025-09-01'
     awarder: Chinese Society of Technology Economics
     icon: hero/trophy
     summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
+      Project integrating large model multimodal capabilities with real-time event
+      recognition technology, achieving an integrated intelligent sports viewing
+      agent with semantic parsing, stylized commentary, and personalized interaction.
+  - title: National AI Application Innovation Competition - Beijing Special Prize
+    date: '2025-05-01'
+    awarder: Chinese Society of Technology Economics
+    icon: hero/trophy
     summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
+      Same as above.
+  - title: Beijing Sport University First-Class Scholarship
+    date: '2024-10-01'
+    awarder: Beijing Sport University
     icon: hero/academic-cap
     summary: |
-      Recognized for contributions to scaling laws in deep learning.
+      Recognition for outstanding achievements in academic research and
+      comprehensive performance.
+  - title: 23rd CUBA Chinese University Basketball League Division II (Northern Region) Championship
+    date: '2021-04-01'
+    awarder: Chinese University Sports Association
+    icon: hero/trophy
+    summary: |
+      Demonstrated excellent teamwork abilities and competitive skills.
+  - title: National Olympiad in Informatics for Youths (NOIP) Guangdong Provincial Division - Second Prize
+    date: '2016-10-01'
+    awarder: China Computer Federation
+    icon: hero/trophy
+    summary: |
+      Demonstrated solid foundation in computer science and programming during
+      high school.
 ---
 
 Yuxuan Peng is a graduate student in biomechanics at Beijing Sport University, where he conducts research on sports injury mechanisms and equipment biomechanics. His research has been published in three conference papers, focusing on the impact of sports equipment on athletic performance and motor control. He is passionate about advancing biomechanics research while exploring applications in exoskeletons and wearable devices for sports rehabilitation. Outside of research, he enjoys basketball, programming, and discovering innovative open-source software tools. 
