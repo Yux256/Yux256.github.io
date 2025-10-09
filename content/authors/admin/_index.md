@@ -215,4 +215,5 @@ awards:
       high school.
 ---
 
-Yuxuan Peng is a graduate student in biomechanics at Beijing Sport University, where he conducts research on sports injury mechanisms and equipment biomechanics. His research has been published in three conference papers, focusing on the impact of sports equipment on athletic performance and motor control. He is passionate about advancing biomechanics research while exploring applications in exoskeletons and wearable devices for sports rehabilitation. Outside of research, he enjoys basketball, programming, and discovering innovative open-source software tools. 
+- Yuxuan Peng is a graduate student in biomechanics at Beijing Sport University, where he conducts research on sports injury mechanisms and equipment biomechanics. His research has been published in three conference papers, focusing on the impact of sports equipment on athletic performance and motor control. 
+- He is passionate about advancing biomechanics research while exploring applications in exoskeletons and wearable devices for sports rehabilitation. Outside of research, he enjoys basketball, programming, and discovering innovative open-source software tools. 
