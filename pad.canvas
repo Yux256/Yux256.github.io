@@ -25,14 +25,25 @@
 		{
 			"id":"8d15908862a6aafd",
 			"type":"text",
-			"text":"- [x] 阅读 warp.md\n- [ ] 修改内容\n\t- [x] bio\n\t\t- [x] 个人陈述\n\t\t- [x] cv\n\t\t- [x] 教育经历\n\t\t- [ ] 兴趣\n\t\t- [ ] 研究陈述\n\t\t- [ ] 代表作\n\t- [ ] papers\n\t- [ ] talks\n\t- [ ] news\n\t- [x] experience\n\t- [ ] projects\n\t- [ ] courses",
+			"text":"- [x] 阅读 warp.md\n- [ ] 修改内容\n\t- [x] bio\n\t\t- [x] 个人陈述\n\t\t- [x] cv\n\t\t- [x] 教育经历\n\t\t- [ ] 兴趣\n\t\t- [ ] 研究陈述\n\t\t- [ ] 代表作\n\t- [ ] papers\n\t\t- [ ] 降温背心\n\t\t- [ ] 护膝\n\t\t- [ ] 非线性分析\n\t- [ ] talks\n\t- [ ] news\n\t- [x] experience\n\t- [ ] projects\n\t- [ ] courses",
 			"styleAttributes":{},
 			"x":1440,
 			"y":-168,
 			"width":300,
 			"height":448
 		},
-		{"id":"076ad7817bb55026","type":"file","file":"Yux256.github.io/attachments/Pasted image 20251005221952.png","x":1740,"y":-235,"width":400,"height":267}
+		{"id":"076ad7817bb55026","type":"file","file":"Yux256.github.io/attachments/Pasted image 20251005221952.png","x":1740,"y":-235,"width":400,"height":267},
+		{
+			"id":"944398a503b20b99",
+			"type":"text",
+			"text":"我来读取这个文件并为您解释其功能。\n\n[1 tool called]\n\n## 文件功能说明\n\n这是 **Hugo 网站的首页配置文件**（Landing Page），用于定义个人学术网站首页的布局和内容。\n\n### 主要结构：\n\n1. **个人简介区块** (第12-31行)\n   - 显示用户个人信息和头像\n   - 提供简历下载按钮\n\n2. **研究介绍** (第32-43行)\n   - Markdown 文本区域\n   - 展示研究方向和使命\n\n3. **精选出版物** (第44-54行)\n   - 展示特色学术论文\n   - 网格布局，2列显示\n\n4. **最近出版物** (第55-64行)\n   - 引用格式显示所有出版物\n\n5. **演讲活动** (第65-73行)\n   - 展示最近和即将进行的演讲\n\n6. **最新动态** (第74-102行)\n   - 显示最近5篇博客文章\n   - 卡片式布局\n\n7. **CTA宣传卡片** (第103-123行)\n   - 仅在演示站点显示\n   - 推广 Hugo Blox Builder\n\n**类型**：Landing page（着陆页）  \n**作用**：通过配置化方式组织首页的各个内容区块，无需编写代码",
+			"styleAttributes":{},
+			"x":1680,
+			"y":576,
+			"width":600,
+			"height":819
+		},
+		{"id":"688faf56893cef1c","type":"file","file":"Yux256.github.io/content/_index.md","x":2280,"y":576,"width":400,"height":400}
 	],
 	"edges":[],
 	"metadata":{
