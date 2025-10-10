@@ -63,7 +63,7 @@ education:
   #   button:
   #     text: 'Read Thesis'
   #     url: 'https://example.com/thesis.pdf'
-  - area: MS SportsBiomechanics
+  - area: MS Sports Biomechanics
     institution: Beijing Sport University
     date_start: 2023-09-01
     date_end: 2026-06-01
